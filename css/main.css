@@ -8,3 +8,8 @@ html {
 *::after {
   box-sizing: inherit;
 }
+
+section {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(20rem,fr1));
+}
